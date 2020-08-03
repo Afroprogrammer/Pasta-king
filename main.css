@@ -1,0 +1,182 @@
+body{
+    font-family: 'Indie Flower', cursive;    
+}
+/* navbar  */
+.transparent{
+    background: rgba(0,0,0,0.5);
+}
+
+.navbar-toggler-icon{
+    border: 5px solid black;
+    padding: 30px;
+    background-color:deepskyblue;
+}
+
+.nav-link, .navbar-brand{
+    color:deepskyblue!important;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30px;
+} 
+.navbar a:hover{
+    color: whitesmoke!important;
+}
+/* end of navbar */
+header{
+    height: 100vh;
+    background: url('pasta.jpg') fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-center{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: deepskyblue; 
+}
+
+ #banner{
+    font-size: 150px; 
+}
+.banner-underline{  
+    width: 300px;
+    border: 3px solid#dd8117;
+    margin: 0px auto 20px auto;
+}
+.banner-center a{
+    font-size: 30px;
+    width:300px;
+    margin: 0px auto;
+    display:inline-block;
+    border:3px solid deepskyblue;
+    color:whitesmoke;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bolder;
+    background-color: deepskyblue;
+    opacity: 0.7;
+
+}
+.banner-center a:hover, .banner a:focus{
+color: deepskyblue;
+background-color:whitesmoke;
+opacity: 1;
+
+}
+/* span{
+    color: #0aedf5; 
+}  */
+/* end of banner*/
+
+/* title */
+.title{
+    margin: 20px 0;
+}
+.title-underline{
+    width: 150px;
+    border: 3px solid #dd8117;
+    margin: 0px auto 20px auto;
+}
+/* end of title */
+
+/* skills  */
+#skills{
+    padding: 40px;
+    color: #dd8117;
+    margin-bottom: 10px;
+}
+
+.fas{
+    font-size: 100px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+#skills a {
+    margin-bottom: 20px;
+    background-color:rgb(221, 129, 23);
+    color: whitesmoke;
+    font-size: 20px;
+}
+#skills a:hover{
+    background-color: #b9b6b6ed;
+}
+/* end of skills */
+
+/* About section  */
+#about{
+    background-color: #222629;
+    color:whitesmoke;
+}
+
+#about .pic{
+    height: 600px;
+    background: url(pasta\ 3.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 600px solid transparent;
+    border-left: 100px solid #222629;
+}
+
+#about .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+/* End of About  */
+
+/* contact section  */
+
+#contact{
+    padding: 40px;
+    background-color:whitesmoke;
+}
+
+#contact .form-control{
+    border-radius: 0!important;
+    font-size: 20px;
+}
+
+#contact button{
+    background-color: #222629;
+    font-size: 24px;
+    color:#dd8117;
+    margin-bottom: 20px;
+}
+#contact button:hover{
+    background-color: #b9b6b6ed;
+} 
+/* end of contact section  */
+
+/* footer section */
+#footer{
+    padding: 40px;
+    color: whitesmoke;
+    background-color: #222629;
+}
+#footer .title-underline{
+    margin-bottom:40px;
+}
+
+#footer .footer-icons{
+    font-size: 60px;
+    color: deepskyblue;
+    text-decoration: none;
+}
+#footer .footer-icons a:hover{
+    color: #dd8117;
+}
+
+#footer .copyrights h3{
+    padding:40px 0;
+    color: #b9b6b6ed;
+}
+
+
+/* end of footer section  */
